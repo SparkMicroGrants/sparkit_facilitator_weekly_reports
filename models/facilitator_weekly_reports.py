@@ -35,7 +35,7 @@ class FaciltiatorWeeklyReports(models.Model):
         track_visibility='onchange')
     suggestions = fields.Text(string="Suggestions", required=True,
         track_visibility='onchange')
-    ideas_team_mtg = fields.Text(string="Ideas for Team Meetings",
+    agenda_items_weekly = fields.Text(string="Agenda Items for Weekly Check-ins",
         track_visibility='onchange')
 
     next_steps = fields.Text(string="Program Manager: Next Steps",
